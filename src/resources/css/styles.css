@@ -10,6 +10,7 @@ body {
   font-family: "Montserrat", sans-serif;
   scrollbar-width: thin;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 #logo {
   color: #ffffff;
@@ -118,6 +119,7 @@ figure {
   display: flex;
   justify-content: space-between;
   transition: all 600ms;
+  width: 100%;
 }
 figure div.container-img {
   position: relative;

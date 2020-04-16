@@ -1,4 +1,4 @@
-
+//Whithout Lib
 // const hikeExp = document.querySelector(".hike-exp");
 // window.addEventListener("scroll", ScrollReveal);
 
