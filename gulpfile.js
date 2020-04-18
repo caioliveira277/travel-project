@@ -23,14 +23,14 @@ function MinifyJs() {
   return pipeline(
     gulp.src(`${resources}/js/*.js`),
     order(["globals.js", "functions.js", "events.js"]),
-    // babel({
-    //   presets: ["@babel/env"],
-    // })
-    // minify({
-    //   mangle: {
-    //     keepClassName: true,
-    //   },
-    // })
+    babel({
+      presets: ["@babel/env"],
+    }),
+    minify({
+      mangle: {
+        keepClassName: true,
+      },
+    }),
     concat("app.js"),
     gulp.dest(`${assets}/js`)
   );
