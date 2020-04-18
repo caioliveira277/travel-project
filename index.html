@@ -1,107 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat&display=swap" rel="stylesheet">
-  <link href="./public/css/styles.css" rel="stylesheet">
-  <title>Travel Website</title>
-</head>
-
-<body>
-  <div class="cursor">
-    <span class="cursor-text"></span>
-  </div>
-  <header>
-    <h1>
-      <a href="./index.html" id="logo">days.</a>
-    </h1>
-    <span class="burguer-menu"></span>
-    <nav>
-      <ul>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Instagram</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/public/assets/css/styles.css" />
+    <link rel="shortcut icon" href="./public/assets/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-header">
+      <h1><a href="./index.html" id="logo">days.</a></h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="mountain slide">
+        <div class="hero-img">
+          <img src="./public/assets/images/forest.png" alt="forest image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Freedom at your <span class="mountain-span">fingertips.</span>
+            </h2>
+            <div class="title-swipe t-swipe1"></div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            asperiores ad laboriosam iure rem. Voluptates pariatur quo iusto non
+            deleniti.
+          </p>
+          <a class="explore mountain-exp">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="hike slide">
+        <div class="hero-img">
+          <img src="./public/assets/images/hike.png" alt="hike image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>Freedom at your <span class="hike-span">fingertips.</span></h2>
+            <div class="title-swipe t-swipe2"></div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            asperiores ad laboriosam iure rem. Voluptates pariatur quo iusto non
+            deleniti.
+          </p>
+          <a class="explore hike-exp">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="fashion slide">
+        <div class="hero-img">
+          <img src="./public/assets/images/fashion.png" alt="fashion image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Freedom at your <span class="fashion-span">fingertips.</span>
+            </h2>
+            <div class="title-swipe t-swipe3"></div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            asperiores ad laboriosam iure rem. Voluptates pariatur quo iusto non
+            deleniti.
+          </p>
+          <a href="./public/pages/fashion/index.html" class="explore fashion-exp">Explore</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+    </main>
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <h3>Twitter</h3>
+        <h3>Youtube</h3>
+        <h3>Instragram</h3>
       </ul>
       <div class="contact">
         <h2>Stay in touch.</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorem laboriosam minima libero animi earum
-          maiores commodi in quia ipsam ullam veritatis perspiciatis inventore aliquam, fuga ex quae optio nesciunt?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorem
+          praesentium ea amet error quidem natus. Magnam explicabo sed tenetur?
         </p>
       </div>
     </nav>
-  </header>
-  <main>
-    <section class="mountain slide">
-      <figure>
-        <div class="container-img">
-          <img src="./public/images/forest.png" alt="Forest image">
-          <div class="reveal-img"></div>
-        </div>
-        <figcaption>
-          <h2>Freedom at your <em>fingertips.</em></h2>
-          <div class="swipe t-swipe1"></div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, cum! Quod asperiores ut voluptates
-            culpa,
-            sed repudiandae natus debitis tempora, ea, vel sunt. Numquam non pariatur, doloremque eius asperiores
-            accusantium.
-          </p>
-          <a href="#" class="explore montain-exp">Explore</a>
-          <div class="reveal-text"></div>
-        </figcaption>
-      </figure>
-    </section>
-    <section class="hike slide">
-      <figure>
-        <div class="container-img">
-          <img src="./public/images/hike.png" alt="Hike image">
-          <div class="reveal-img"></div>
-        </div>
-        <figcaption>
-          <h2>Freedom at your <em>fingertips.</em></h2>
-          <div class="swipe t-swipe2"></div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, cum! Quod asperiores ut voluptates
-            culpa,
-            sed repudiandae natus debitis tempora, ea, vel sunt. Numquam non pariatur, doloremque eius asperiores
-            accusantium.
-          </p>
-          <a href="#" class="explore hike-exp">Explore</a>
-          <div class="reveal-text"></div>
-        </figcaption>
-      </figure>
-    </section>
-    <section class="fashion slide">
-      <figure>
-        <div class="container-img">
-          <img src="./public/images/fashion.png" alt="Fashion image">
-          <div class="reveal-img"></div>
-        </div>
-        <figcaption>
-          <h2>Freedom at your <em>fingertips.</em></h2>
-          <div class="swipe t-swipe3"></div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, cum! Quod asperiores ut voluptates
-            culpa,
-            sed repudiandae natus debitis tempora, ea, vel sunt. Numquam non pariatur, doloremque eius asperiores
-            accusantium.
-          </p>
-          <a href="#" class="explore fashion-exp">Explore</a>
-          <div class="reveal-text"></div>
-        </figcaption>
-      </figure>
-    </section>
-  </main>
-  <div class="swipe swipe1"></div>
-  <div class="swipe swipe2"></div>
-  <div class="swipe swipe3"></div>
-
-  <script src="./src/js/globals.js"></script>
-  <script src="./src/js/functions.js"></script>
-  <script src="./src/js/events.js"></script>
-</body>
-
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+      integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./public/assets/js/app.js"></script>
+  </body>
 </html>
