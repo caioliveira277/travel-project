@@ -149,7 +149,11 @@ function detailAnimation() {
   const slides = document.querySelectorAll(".detail-slide");
   slides.forEach((slide, index, slides) => {
     const slideTl = gsap.timeline({ defaults: { duration: 1 } });
-    let nextSlide = slides.length - 1 === index ? "end" : slides[index + 1];
+    if(slides.legth -1 !== index){
+      nextSlide = slides[index + 1];
+    }else{
+      return;
+    }
     const nextImg = nextSlide.querySelector("img");
     slideTl.fromTo(slide, { opacity: 1 }, { opacity: 0 });
     slideTl.fromTo(nextSlide, { opacity: 0 }, { opacity: 1 }, "-=1");
