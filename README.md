@@ -6,4 +6,4 @@ The creative javascript course - project 4 :fire:
 Scripts de compilação:
 > npm run build
  
-https://caioliveira277.github.io/travelProject
+GitHub Page:https://caioliveira277.github.io/travelProject
