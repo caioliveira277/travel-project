@@ -1,9 +1,58 @@
-# travelProject
-.Days website
+# TavelProject 🌴
+## Projeto elaborado no curso ***The creative javascript course***
 
-The creative javascript course - project 4 :fire:
+<br>
+<p float="left">
+ <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+ <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+ <img src="https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white">
+ <img src="https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black">
+</p>
+<br>
 
-Scripts de compilação:
-> npm run build
- 
-Git Hub Page:https://caioliveira277.github.io/travelProject
+## Ideia 💡:
+Criar um site com o tema de **viagens** e apresentação de lugares para conhecer. 
+
+## Funcionalidades:
+- Pagina home de aprensentação;
+- Menu animado;
+- Pagina de apresentação;
+
+## Executando o projeto: 🚀
+Para executar e visualizar o projeto em **modo de desenvolvimento**, você precisará seguir as próximas etapas.
+
+### Pré-requisitos:
+Abaixo estará listada as ferramentas necessárias para o funcionamento do projeto.
+- **NodeJS versão 12** <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/nodejs.svg" height="20" /><br>
+  [<ins>Guia de instalação NodeJS</ins>](https://nodejs.org/en/).
+  
+### Instalando dependencias:
+Execute o comandos para instalar as dependencias do projeto.
+   ```sh
+   npm install
+   ```  
+  
+### Executando o projeto:
+Os scripts abaixo executam a compilação do projeto.
+  ```sh
+   npm run build
+   ```
+   ###### Comando para compilar e minificar o Javascript
+   
+   <br>
+
+
+---
+## Links: 🌐
+***Projeto online GitHub Pages:***<br>
+[<ins>Link do projeto</ins>](https://caioliveira277.github.io/travelProject/index.html)
+
+***Curso The Creative Javascript:***<br>
+[<ins>Link do curso</ins>](https://developedbyed.com/p/the-creative-javascript-course)
+
+***Documentação Gulp:***<br>
+[<ins>Gulp docs</ins>](https://gulpjs.com/)
+
+---
+## Licença
+Este projeto está licenciado sob a licença [MIT] - consulte o arquivo LICENSE.md para obter detalhes
